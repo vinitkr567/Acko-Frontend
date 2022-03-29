@@ -53,4 +53,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Apache License 2.0](https://github.com/pankajbisht03/Acko-Frontend/blob/main/LICENSE)
