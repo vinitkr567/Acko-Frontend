@@ -130,12 +130,7 @@ export default function Navbar() {
                   Products
                 </a>
               </li>
-              {/* <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> */}
-              {/* <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li> */}
+
               <li
                 className="nav-item dropdown"
                 onMouseEnter={() => setfirst({ reso: true })}
@@ -262,14 +257,7 @@ export default function Navbar() {
                 )}
               </li>
             </ul>
-            {/* <form>
-        <input
-          class="form-control"
-          type="text"
-          placeholder="Search"
-          aria-label="Search"
-        />
-      </form> */}
+
             <div
               className="dropdown"
               id="sideIn"
@@ -354,7 +342,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               )}
-              <a class="Inbtn" href="#">
+              <a className="Inbtn" href="#">
                 login
               </a>
             </div>
