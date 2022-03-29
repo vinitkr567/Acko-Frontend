@@ -1,3 +1,6 @@
+* {
+  transition: 0.25s;
+}
 .subMenu-Box {
   width: 100%;
   display: flex;
@@ -15,7 +18,10 @@
   z-index: 3;
   top: -2px;
   display: flex;
-  animation: 0.2s ease-in 0s 1 normal none running eMLfYp;
+  animation: 0.2s ease-in 0s 1 normal none running fadeIn;
+}
+.dropdown-menu {
+  animation: 0.2s ease-in 0s 1 normal none running fadeIn;
 }
 .mainMenuBox.arrow-top:after {
   content: " ";
@@ -139,7 +145,7 @@ a:hover {
   left: 0px;
   display: initial;
   background: rgba(255, 255, 255, 0);
-  /* animation-name: klcRRl; */
+  animation-name: slideInRight;
   animation-duration: 300ms;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
@@ -154,10 +160,6 @@ a:hover {
   right: 0px;
   width: 90%;
   background: white;
-  /* animation-name: gIzZAR; */
-  animation-duration: 300ms;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
 }
 .upperMmenu {
   width: 100%;
