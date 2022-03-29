@@ -32,11 +32,11 @@ A collaborative project built by a team of 4
 executed in 4 days.
 Team
 
+- [Pankaj Bisht](https://github.com/pankajbisht03)
 - [Vaibhav Solanki](https://github.com/Vaibhav-Solanki)
-- [test](https://github.com/gautamverma095)
-- [test](https://github.com/Divash-Upadhyay)
-- [test](https://github.com/Manjunath-BV23)
-- [test](https://github.com/Saniyzehra123)
+- [test](https://github.com/)
+- [test](https://github.com)
+- [test](https://github.com)
 
 ## Install process
 
