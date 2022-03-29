@@ -145,7 +145,10 @@ export default function Navbar() {
                   Resources
                 </a>
                 {first.reso && (
-                  <ul className="dropdown-menu" style={{ display: "block" }}>
+                  <ul
+                    className="dropdown-menu animated swing"
+                    style={{ display: "block" }}
+                  >
                     <li>
                       <a className="dropdown-item" href="#">
                         <svg
