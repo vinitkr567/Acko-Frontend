@@ -7,6 +7,7 @@ export default function Navbar() {
     logM: false,
     mMenu: false,
   });
+  const [userLog, setuserLog] = useState(true);
   return (
     <header>
       <nav
@@ -322,7 +323,7 @@ export default function Navbar() {
               </a>
               {first.logM && (
                 <ul
-                  className="dropdown-menu"
+                  className="dropdown-menu "
                   style={{ display: "block", top: "2.3rem" }}
                 >
                   <li>
@@ -350,6 +351,29 @@ export default function Navbar() {
               </a>
             </div>
             <a style={{ margin: "0px 10px 0px 0px" }}>Help</a>
+            {userLog && (
+              <svg
+                className="mx-2"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.625 30.6668C24.7252 30.6668 31.2917 24.1003 31.2917 16.0002C31.2917 7.89999 24.7252 1.3335 16.625 1.3335C8.52486 1.3335 1.95837 7.89999 1.95837 16.0002C1.95837 24.1003 8.52486 30.6668 16.625 30.6668Z"
+                  fill="#F6F7FB"
+                ></path>
+                <path
+                  d="M20.6461 11.7554C20.6461 13.9894 18.859 16.1116 16.6251 16.1116C14.3911 16.1116 12.604 13.9894 12.604 11.7554C12.604 9.52152 14.3911 7.73438 16.6251 7.73438C18.859 7.73438 20.6461 9.52152 20.6461 11.7554Z"
+                  fill="#9364ED"
+                ></path>
+                <path
+                  d="M23.2046 22.5781C23.3163 23.1365 22.9812 23.695 22.311 23.9184C21.194 24.2535 18.9601 24.7003 16.6145 24.7003C14.2689 24.7003 12.0349 24.1418 10.918 23.8067C10.3595 23.695 10.0244 23.1365 10.0244 22.4664C10.4712 19.3389 12.5173 17.6064 16.6145 17.6064C20.6094 17.6064 22.7578 19.4506 23.2046 22.5781Z"
+                  fill="#9364ED"
+                ></path>
+              </svg>
+            )}
           </div>
         </div>
       </nav>
