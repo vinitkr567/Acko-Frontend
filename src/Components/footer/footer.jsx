@@ -1,8 +1,7 @@
-import "style.css";
 import fir from "./image/fir.svg";
 import sec from "./image/sec.svg";
 import thi from "./image/thi.svg";
-import React from 'react'
+import "./footer.css";
 
 const footer = () => {
   return (
