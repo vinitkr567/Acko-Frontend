@@ -33,9 +33,9 @@ executed in 4 days.
 Team
 
 - [Pankaj Bisht](https://github.com/pankajbisht03)
+- [Salakha](https://github.com/salakhas)
 - [Vaibhav Solanki](https://github.com/Vaibhav-Solanki)
-- [test](https://github.com/)
-- [test](https://github.com)
+- [Santhosh](https://github.com/Santhosh-user)
 - [test](https://github.com)
 
 ## Install process
