@@ -1,4 +1,5 @@
 import pen from "./pen.svg"
+
 const profile = () => {
   return (
    
@@ -11,12 +12,12 @@ const profile = () => {
     </div>
     <div style={{borderBottom: "2px solid green", height: "30px", width: "80%", margin: "auto", display: "flex"}}>
         <div style={{width: "75%", marginLeft: "5%"}}>Mobile No</div>
-        <div className="name" style={{width: "10%", border: "1px", height: "auto"}}> vinit</div>
+        <div className="name" style={{width: "10%", border: "1px", height: "auto"}}> 9876543212</div>
         <div style={{width: "5%", border: "1px", height: "auto"}}><img src={pen} style={{ height: "12px", width: "12px" }}></div>
     </div>
     <div style={{borderBottom: "2px solid green", height: "30px", width: "80%", margin: "auto", display: "flex"}}>
         <div style={{width: "75%", marginLeft: "5%"}}>Email</div>
-        <div className="name" style={{width: "10%", border: "1px", height: "auto"}}> vinit</div>
+        <div className="name" style={{width: "10%", border: "1px", height: "auto"}}> vinitkr@gmail.com</div>
         <div style={{width: "5%", border: "1px", height: "auto"}}><img src={pen} style={{ height: "12px", width: "12px" }}></div>
     </div>
     
